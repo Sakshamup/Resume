@@ -1,0 +1,21 @@
+:root {
+  --bg: #0b0d12;
+  --surface: #11151c;
+  --elevated: #161b22;
+  --text: #e6e8eb;
+  --muted: #9aa3af;
+  --primary: #5b8cff;
+  --primary-600: #4478ff;
+  --primary-700: #3467f5;
+  --border: #222733;
+  --shadow: 0 6px 20px rgba(0,0,0,0.25);
+  --radius: 12px;
+  --radius-sm: 10px;
+  --radius-lg: 16px;
+  --container: 1120px;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  background: linear-gradient(180deg, var(--bg), #0e1118 60
